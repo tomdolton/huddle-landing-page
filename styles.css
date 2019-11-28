@@ -1,0 +1,51 @@
+:root{
+  --clr-primary-pink: hsl(322, 100%, 66%);
+  --clr-neutral-dark: hsl(192, 100%, 9%);
+  --clr-neutral-light: hsl(207, 100%, 98%);
+  --clr-white: #fff;
+}
+
+*, *:before, *:after {
+  box-shadow: border-box;
+}
+
+/* Base styles, Typography */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;;
+}
+
+
+
+section {
+  background: var(--clr-white);
+  text-align: center;
+}
+
+/* Buttons */
+/* EDIT LATER */
+button {
+  font-family: 'Open Sans', sans-serif;
+  border-color: var(--clr-primary-pink);
+  border-radius: 10px;
+  padding: 1em 2em;
+}
+
+
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
